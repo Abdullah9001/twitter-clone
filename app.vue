@@ -14,15 +14,13 @@
           <!-- Left Sidebar -->
 
           <!-- Main Content -->
-          <!-- <main class="col-span-12 bg-red-500 md:col-span-8 xl:col-span-6">
-            <h1>Main</h1>
-          </main> -->
+          <main class="col-span-12 md:col-span-8 xl:col-span-6">
+            <router-view />
+          </main>
           <!-- Main Content -->
 
           <!-- Right Sidebar -->
-          <div
-            class="col-span-12 md:block xl:col-span-4 md:col-span-3 bg-blue-500"
-          >
+          <div class="hidden col-span-12 md:block xl:col-span-4 md:col-span-3">
             <div class="sticky top-0">
               <SidebarRight />
             </div>
